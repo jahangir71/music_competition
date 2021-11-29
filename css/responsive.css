@@ -1,0 +1,115 @@
+@media only screen and (max-width:992px){
+    .menu_items{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+  .contact .btn{
+        transform: translateX(200%);
+    } 
+}
+
+@media only screen and (max-width:768px){
+    .about{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .about .about_left{
+        width: 100%;
+    }
+    .about .about_right{
+        width: 100%;
+    }
+    .about .about_right img{
+        height:auto;
+    }
+    .contact .btn{
+        transform: translateX(150%);
+    } 
+    .panellists .panellists_wrapper .panellist_info{
+        width: 45%;
+        text-align: center;
+        margin: 2rem 1rem;
+    }
+    .selection{
+        flex-direction: column;
+    }
+    .selection .selection_left{
+        width:100%;
+    }
+    .selection .selection_right{
+        width: 100%;
+    }
+    .footer .footer_left{
+        width: 100%;
+    }
+    .footer .footer_mid{
+        width: 100%;
+    }
+   }
+
+   @media only screen and (max-width:576px){
+    .navbar img{
+        display: block;
+        height: 5rem;
+        margin-left: 5rem;
+    }
+    .navbar h2{
+        font-size: 2rem;
+    }
+    .home .home_title h1{
+        font-size: 4rem;
+    }
+    .about .about_left h2{
+        font-size: 3rem;
+    }
+    .about .about_left p{
+        font-size: 1.7rem;
+    }
+    .contact .info{
+        padding: 2rem 10rem;
+    }
+    .contact .info p{
+        padding: 1rem 0rem;
+        font-size: 1.6rem;
+    }
+    .contact .btn{
+        transform: translateX(100%);
+    } 
+    .pannel .pannel_text{
+        width:90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .pannel .pannel_text h1{
+        font-size: 4.5rem;
+        color: #fff;
+        text-transform: lowercase;
+    }
+    .footer .footer_left img{
+        width: 8rem;
+    }
+   }
+   
+   @media only screen and (max-width:420px){
+    .navbar h2{
+        font-size: 1.7rem;
+    }
+    .contact .btn{
+        transform: translateX(50%);
+    } 
+    .panellists .panellists_wrapper .panellist_info{
+        width: 100%;
+    }
+    .footer .footer_left .btn{
+        width: 25rem;
+        padding: 1rem 3rem;
+    }
+    .footer .footer_mid .box h2{
+        font-size: 1.6rem;
+    }
+   }
